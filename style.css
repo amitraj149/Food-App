@@ -1,0 +1,313 @@
+/* NAVBAR CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(193, 247, 228);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: rgb(28 25 82);
+
+}
+
+.log {
+    display: flex;
+}
+
+.log img {
+    border-radius: 50px;
+    margin: 2px;
+    height: 75px;
+    width: 75px;
+}
+
+.log h2 {
+    margin-top: 10px;
+    padding: 15px;
+    color: rgb(247, 247, 252);
+}
+
+.call img {
+    margin-top: 20px;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+ul {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav li a:hover {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* CONTACT */
+.tel {
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.tel a {
+    text-decoration: none;
+    color: rgb(15, 1, 1);
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tel {
+    text-decoration: none;
+}
+
+.tel a:hover {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* BANNER SECTIONS */
+
+/* .ban {
+    background: url('Img/bg/signmantra\ website\ both\ pages.gif') no-repeat center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner h2 {
+    margin-top: 40px;
+    color: rgb(248, 247, 247);
+    font-size: 2.8rem;
+} */
+
+/* WELCOME SECTION */
+.wel {
+    margin-top: 3px;
+    background-size: cover;
+    background: url('Img/products/Drink/glasses-g73c617bdb_1920.jpg') no-repeat center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.well h2 {
+    margin-top: 50px;
+    padding: 20px;
+    color: rgb(254, 252, 252);
+    font-size: 2.8rem;
+}
+
+.well p {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(247, 248, 241);
+    font-size: 1.5rem;
+}
+
+/* SERVICES */
+.head {
+    text-align: center;
+    padding: 10px;
+}
+
+.head h3 {
+    margin-top: 20px;
+    color: black;
+    font-size: 2.4rem;
+
+}
+
+.service {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    text-align: center;
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+    background-color: rgb(249, 236, 236);
+}
+.services:hover {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: rgb(249, 236, 236);
+}
+
+.services h2 {
+    margin: 5px;
+    padding: 5px;
+    color: rgb(254, 28, 28);
+    font-size: 1.6rem;
+}
+
+.services p {
+    margin: 5px;
+    padding: 5px;
+    color: rgb(32, 32, 254);
+    font-size: 1.1rem;
+}
+
+.services img {
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.wel button {
+    border: 2px solid rgb(52, 68, 254);
+    border-radius: 10px;
+    background: rgb(19, 1, 1);
+    color: rgb(247, 247, 250);
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 8px;
+    width: 120px;
+}
+
+/* kitchen */
+
+.kitchen img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.kitchen p {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(32, 32, 254);
+    font-size: 1.5rem;
+}
+
+.kitchen h2 {
+    margin: 5px;
+    padding: 5px;
+    color: rgb(254, 28, 28);
+    font-size: 1.8rem;
+}
+
+.kitchen {
+    width: 100%;
+    height: 100%;
+    margin: 6px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    border: 2px solid rgb(64, 0, 255);
+    background: rgb(10, 0, 0);
+}
+.fot {
+    display: flex;
+    justify-content: right;
+}
+.fot li {
+    margin-top: 4px;
+    list-style: none;
+}
+.fot li a {
+    text-decoration: none;
+    color: rgb(253, 29, 29);
+    font-weight: bold;
+    font-size: 18px;
+}
+.fot li a img {
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ftr {
+    justify-content: space-between;
+    display: flex;
+}
+#logo img {
+    border-radius: 50px;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+/* CLIENTS SECTIONS */
+#clint-sec {
+    text-align: center;
+    background-color: rgb(250, 225, 246);
+}
+#clint-sec h1 {
+    padding-top: 20px;
+    font-size: 2.0rem;
+    color: rgb(254, 6, 55);
+}
+span {
+    border-bottom: 4px solid rgb(20, 5, 41);
+}
+.clints {
+    padding: 30px;
+}
+.clints img {
+    width: 100px;
+}
+.vdo{
+    display: flex;
+    justify-content: center;
+}
+
